@@ -73,9 +73,9 @@ const BenefitsOfServices = () => {
               <img
                 src={service.imgsrc}
                 alt={service.title}
-                className="h-10 w-10"
+                className="h-8 w-8"
               />
-              <h3 className="text-xl md:text-2xl font-bold text-white">
+              <h3 className="text-xl xl:text-2xl font-bold text-white">
                 {service.title}
               </h3>
               <p className="text-white/60 text-sm lg:text-base">

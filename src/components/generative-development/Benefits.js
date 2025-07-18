@@ -2,7 +2,7 @@
 
 import { GenerativeBenefits } from "../../constant/data";
 import HeadingHighlight from "../reusable/HeadingHighlight";
-import { useRef, useEffect } from "react";
+import { useRef } from "react";
 import { useInView, motion } from "framer-motion";
 import { titleVariants, fadeSlideLeft, fadeSlideRight } from "../animations";
 
@@ -87,7 +87,7 @@ export function Benefits() {
                   {benefit.id}
                 </div>
                 <div className="space-y-3">
-                  <h3 className="text-xl md:text-2xl font-bold text-white">
+                  <h3 className="text-xl xl:text-2xl font-bold text-white">
                     {benefit.title}
                   </h3>
                   <p className="text-white text-sm lg:text-base">
@@ -115,7 +115,7 @@ export function Benefits() {
                   {benefit.id}
                 </div>
                 <div className="space-y-3">
-                  <h3 className="text-xl md:text-2xl font-bold text-white">
+                  <h3 className="text-xl xl:text-2xl font-bold text-white">
                     {benefit.title}
                   </h3>
                   <p className="text-white text-sm lg:text-base">

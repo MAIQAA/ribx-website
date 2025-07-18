@@ -40,9 +40,9 @@ const ChooseServices = () => {
       <div className="bg-[#431964] w-96 h-96 rounded-full absolute top-80 blur-[200px] z-0 -right-10" />
 
       {/* Main Content */}
-      <div className="xl:container mx-auto 2xl:max-w-[1280px] w-full flex flex-col justify-center items-center gap-16 text-white z-10">
+      <div className="xl:container mx-auto 2xl:max-w-[1280px] w-full flex flex-col justify-center items-center gap-16 text-white ">
         <motion.div
-          className="flex flex-col items-center justify-center max-w-6xl text-center gap-7"
+          className="flex flex-col items-center justify-center max-w-6xl text-center gap-7 relative z-10"
           variants={titleVariants}
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
@@ -63,7 +63,7 @@ const ChooseServices = () => {
         </motion.div>
 
         <motion.div
-          className="relative w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-start gap-7 gap-y-10"
+          className="relative z-10 w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-start gap-7 gap-y-10"
           variants={fadeSlideUp}
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
@@ -75,7 +75,7 @@ const ChooseServices = () => {
           {webAppChooseServices.map((service, index) => (
             <div
               key={index}
-              className={`relative flex flex-col items-start  h-64 md:h-48  
+              className={`relative flex flex-col items-start  h-36 lg:h-48  
     ${
       service.id === 6
         ? " justify-between p-3 md:p-4 lg:p-6 xl:!p-8 rounded-xl"
@@ -92,7 +92,7 @@ const ChooseServices = () => {
                   : {}
               }
             >
-              <h3 className="text-xl md:text-2xl font-bold text-white">
+              <h3 className="text-xl xl:text-2xl font-bold text-white">
                 {service.title}
               </h3>
               <p className="text-white/60 text-sm lg:text-base">

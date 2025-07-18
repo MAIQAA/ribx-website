@@ -28,15 +28,15 @@ const BenefitsOfServices = () => {
       <img
         src="/home/faq/FaqBg.svg"
         alt="FAQ Background"
-        className="absolute -right-28 top-60 h-[70%] w-auto -z-10 hidden md:block opacity-80"
+        className="absolute -right-28 top-60 h-[70%] w-auto -z-10 hidden lg:block opacity-80"
       />
       <div className="bg-[#431964] w-96 h-96 rounded-full blur-[100px] absolute -z-10 top-80 -left-40 opacity-70" />
       <div className="bg-[#431964] w-96 h-96 rounded-full blur-[100px] absolute -z-10 top-80 -right-40 opacity-70" />
 
       {/* Main Content */}
-      <div className="xl:container mx-auto 2xl:max-w-[1280px] w-full flex flex-col justify-center items-center gap-16 text-white">
+      <div className="xl:container mx-auto 2xl:max-w-[1280px] w-full flex flex-col justify-center items-center gap-16 text-white ">
         <motion.div
-          className="flex flex-col items-center justify-center max-w-5xl text-center gap-7"
+          className="relative z-10 flex flex-col items-center justify-center max-w-5xl text-center gap-7"
           variants={titleVariants}
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
@@ -45,7 +45,7 @@ const BenefitsOfServices = () => {
           {/* Title */}
           <HeadingHighlight
             text="Benefits Of Our"
-            highlightText="AI Chatbot Development"
+            highlightText="Web Application Development"
             subText="Services"
           />
           <p className="text-base md:text-lg xl:px-4">
@@ -58,7 +58,7 @@ const BenefitsOfServices = () => {
         </motion.div>
 
         <motion.div
-          className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-start gap-7"
+          className="relative z-10 w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-start gap-7"
           variants={fadeSlideUp}
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
@@ -80,9 +80,9 @@ const BenefitsOfServices = () => {
               <img
                 src={service.imgsrc}
                 alt={service.title}
-                className="h-10 w-10"
+                className="h-8 w-8"
               />
-              <h3 className="text-xl md:text-2xl font-bold text-white">
+              <h3 className="text-xl xl:text-2xl font-bold text-white">
                 {service.title}
               </h3>
               <p className="text-white/60 text-sm lg:text-base">

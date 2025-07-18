@@ -60,7 +60,7 @@ const Integrate = () => {
           {integrateData.map((service, index) => (
             <div
               key={index}
-              className="relative bg-[#110B15] border-l-[5px] border-[#DC00F9] shadow-[0_0_15px_rgba(120,0,149,0.5)] hover:shadow-[0_0_15px_rgba(120,0,149,0.8)] transition-shadow duration-300 p-4 space-y-3 md:gap-7 overflow-hidden z-10 flex flex-col md:flex-row items-center justify-center"
+              className="relative bg-[#110B15] border-l-[5px] border-[#DC00F9] shadow-[0_0_15px_rgba(120,0,149,0.5)] hover:shadow-[0_0_15px_rgba(120,0,149,0.8)] transition-shadow duration-300 p-4 space-y-3 md:gap-7 overflow-hidden z-10 flex flex-col md:flex-row items-start md:items-center justify-center"
             >
               <img
                 src={service.imgsrc}
@@ -68,7 +68,7 @@ const Integrate = () => {
                 className="h-10 w-10"
               />
               <div>
-                <h3 className="text-xl md:text-2xl font-bold text-white">
+                <h3 className="text-xl xl:text-2xl font-bold text-white">
                   {service.title}
                 </h3>
                 <p className="text-white/60 text-sm lg:text-base">

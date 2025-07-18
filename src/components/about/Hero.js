@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import Button from "../reusable/Button";
-import HeadingHighlight from "../reusable/HeadingHighlight";
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 

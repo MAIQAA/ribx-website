@@ -42,7 +42,7 @@ const ChooseServices = () => {
       {/* Main Content */}
       <div className="xl:container mx-auto 2xl:max-w-[1280px] w-full flex flex-col justify-center items-center gap-16 text-white z-10">
         <motion.div
-          className="flex items-center justify-center max-w-6xl text-center gap-3"
+          className="relative flex items-center justify-center max-w-6xl text-center gap-3 z-10"
           variants={titleVariants}
           initial="hidden"
           animate={isInView ? "visible" : "hidden"}
@@ -69,7 +69,7 @@ const ChooseServices = () => {
           {chatbotChooseServices.map((service, index) => (
             <div
               key={index}
-              className={`relative flex flex-col items-start  h-64 md:h-48  
+              className={`relative flex flex-col items-start h-40 md:h-44 lg:h-48  
     ${
       service.id === 6
         ? " justify-between p-3 md:p-4 lg:p-6 xl:!p-8 rounded-xl"
@@ -86,7 +86,7 @@ const ChooseServices = () => {
                   : {}
               }
             >
-              <h3 className="text-xl md:text-2xl font-bold text-white">
+              <h3 className="text-xl xl:text-2xl font-bold text-white">
                 {service.title}
               </h3>
               <p className="text-white/60 text-sm lg:text-base">

@@ -8,7 +8,7 @@ import TabSection from "../../components/web-applications/TabsSection";
 
 const index = () => {
   return (
-    <div className="overflow-x-clip">
+    <div className="!overflow-x-clip">
       <Hero />
       <ChooseServices />
       <BenefitsOfServices />

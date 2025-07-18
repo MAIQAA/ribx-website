@@ -5,7 +5,6 @@ import { useInView, motion } from "framer-motion";
 import {
   fadeSlideLeft,
   fadeSlideRight,
-  fadeSlideUp,
   titleVariants,
 } from "../animations";
 

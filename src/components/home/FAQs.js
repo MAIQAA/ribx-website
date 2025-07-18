@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect } from "react";
 import { IoIosArrowDropdownCircle } from "react-icons/io";
 import HeadingHighlight from "../reusable/HeadingHighlight";
 import { useInView, motion } from "framer-motion";

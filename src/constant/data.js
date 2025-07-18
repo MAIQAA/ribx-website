@@ -1,3 +1,45 @@
+// -- --------------------------------------------------------------------------------------------------------------------------
+// ---------------------------------------------------------- NAVLINKS ---------------------------------------------------------
+
+import { TbMessageChatbot } from "react-icons/tb";
+import { MdOutlineGeneratingTokens } from "react-icons/md";
+import { GiArtificialIntelligence } from "react-icons/gi";
+import { CgWebsite } from "react-icons/cg";
+import { MdOutlineRealEstateAgent } from "react-icons/md";
+
+export const navLinks = [
+  { to: "/", label: "Home" },
+  { to: "/about", label: "About Us" },
+  {
+    label: "Services",
+    dropdown: [
+      { to: "/services/chatbot", label: "AI Chatbot", icon: TbMessageChatbot },
+      {
+        to: "/services/generative-development",
+        label: "Generative AI Development",
+        icon: MdOutlineGeneratingTokens,
+      },
+      {
+        to: "/services/web-applications",
+        label: "Web Application",
+        icon: CgWebsite,
+      },
+      {
+        to: "/services/machine-learning",
+        label: "Machine Learning & Deep Learning",
+        icon: GiArtificialIntelligence,
+      },
+      {
+        to: "/services/tokenization",
+        label: "Tokenization",
+        icon: MdOutlineRealEstateAgent,
+      },
+    ],
+  },
+  { to: "/blog", label: "Blogs" },
+  { to: "/contact", label: "Contact" },
+];
+
 // --------------------------------------------------------------------------------------------------------------------------
 // ---------------------------------------------------------- HOME ----------------------------------------------------------
 
@@ -54,31 +96,47 @@ export const servicesType = [
 export const servicesDetailed = [
   {
     id: 1,
+    url: "/services/chatbot",
     bgSrc: "/home/services/ServicesCardBg-1.png",
-    title: "Machine & Deep Learning Development",
+    title: "AI Chatbot",
     description:
-      "Build intelligent systems that learn from data, automate tasks, and deliver smarter decision-making with our advanced machine and deep learning solutions.",
+      "Engage customers 24/7 with intelligent, human-like chatbots that automate support, increase conversions, and deliver personalized user experiences.",
   },
+
   {
     id: 2,
+    url: "/services/generative-development",
     bgSrc: "/home/services/ServicesCardBg-2.png",
-    title: "Custom Web App Development",
-    description:
-      "We design and develop scalable, fast, and secure web applications tailored to your business goals using modern frameworks and best development practices.",
-  },
-  {
-    id: 3,
-    bgSrc: "/home/services/ServicesCardBg-3.png",
-    title: "Generative AI Development Solutions",
+    title: "Generative AI Development",
     description:
       "Transform your operations with AI-powered tools that generate content, ideas, and insights—boosting creativity, efficiency, and innovation across your business.",
   },
+
+  {
+    id: 3,
+    url: "/services/web-applications",
+    bgSrc: "/home/services/ServicesCardBg-3.png",
+    title: "Web Application",
+    description:
+      "We design and develop scalable, fast, and secure web applications tailored to your business goals using modern frameworks and best development practices.",
+  },
+
   {
     id: 4,
+    url: "/services/machine-learning",
     bgSrc: "/home/services/ServicesCardBg-1.png",
-    title: "AI-Powered Chatbot Development",
+    title: "Machine Learning & Deep Learning",
     description:
-      "Engage customers 24/7 with intelligent, human-like chatbots that automate support, increase conversions, and deliver personalized user experiences.",
+      "Build intelligent systems that learn from data, automate tasks, and deliver smarter decision-making with our advanced machine and deep learning solutions.",
+  },
+
+  {
+    id: 5,
+    url: "/services/tokenization",
+    bgSrc: "/home/services/ServicesCardBg-2.png",
+    title: "Tokenization",
+    description:
+      "Convert your real estate or physical assets into digital tokens using secure blockchain solutions. Unlock liquidity, streamline ownership, and enable fractional investments.",
   },
 ];
 
@@ -556,7 +614,297 @@ export const tabData = [
   },
 ];
 
-// Contact section constants
+// -----------------------------------------------------------------------------------------------------------------------------
+// --------------------------------------- MACHINE LEARNING & DEEP LEARNING SERVICE --------------------------------------------
+
+// ---------------------------------------------------------- SLIDER SECTION
+
+export const slides = [
+  {
+    id: 1,
+    image: "/machine-learning/Self-service analytics tools.svg",
+    title: "AI-Powered Business Intelligence",
+    description:
+      "Unlock deeper insights with self-service analytics driven by machine learning. Empower non-technical teams to run reports, ask questions in natural language, and visualize data instantly—without relying on IT support.",
+  },
+  {
+    id: 2,
+    image: "/machine-learning/Advanced cybersecurity.svg",
+    title: "Predictive Cybersecurity Solutions",
+    description:
+      "Leverage ML algorithms to detect threats before they strike. Our advanced cybersecurity tools offer real-time monitoring, anomaly detection, and automated threat response to keep your digital assets secure 24/7.",
+  },
+  {
+    id: 3,
+    image: "/machine-learning/ML-powered customer service.svg",
+    title: "Intelligent Customer Engagement",
+    description:
+      "Enhance customer satisfaction with ML-powered systems that understand user behavior, predict needs, and personalize support. Ideal for industries like healthcare, finance, and e-commerce where service quality drives loyalty.",
+  },
+  {
+    id: 4,
+    image: "/machine-learning/Self-service analytics tools.svg",
+    title: "Automated Data Preparation",
+    description:
+      "Cut down manual data prep time using smart ML pipelines that clean, organize, and structure data automatically—so your team can focus on analysis, not formatting.",
+  },
+  {
+    id: 5,
+    image: "/machine-learning/ML-powered customer service.svg",
+    title: "Real-Time Sentiment Analysis",
+    description:
+      "Monitor public opinion and customer sentiment in real time. Our ML models analyze reviews, social media, and chat logs to provide instant insights into brand perception and customer mood.",
+  },
+  {
+    id: 6,
+    image: "/machine-learning/Advanced cybersecurity.svg",
+    title: "Fraud Detection & Risk Scoring",
+    description:
+      "Protect your business with ML-based fraud detection that adapts over time. Identify anomalies, score transactions, and prevent financial threats across banking, fintech, and e-commerce platforms.",
+  },
+];
+
+// ---------------------------------------------------------- WHAT OUR COMPOANY CAN DO
+
+export const tabs = [
+  {
+    title: "ML/DL Strategy & Consulting",
+    content:
+      "As a trusted ML/DL consulting company, we guide organizations in aligning AI strategies with business goals. From identifying use cases to deploying scalable solutions, we help clients harness ML/DL to reduce costs, optimize processes, and unlock hidden data-driven opportunities.",
+    details: [
+      "Align business goals with AI potential",
+      "Define high-impact ML/DL use cases",
+      "Choose the right tools and models",
+      "Design scalable architecture",
+      "Conduct PoCs and pilot tests",
+      "Ensure AI governance and compliance",
+    ],
+  },
+  {
+    title: "Natural Language Processing (NLP)",
+    content:
+      "We develop NLP solutions that help machines comprehend and interact with human language effectively. From chatbots and semantic search to text analysis and intelligent routing, we empower enterprises to automate communication and unlock insights hidden in unstructured data.",
+    details: [
+      "Build chatbots and assistants",
+      "Text classification & sentiment analysis",
+      "Extract information with NER",
+      "Document summarization & translation",
+      "Search unstructured content",
+      "Auto-route support tickets and emails",
+    ],
+  },
+  {
+    title: "Computer Vision Development",
+    content:
+      "We engineer robust computer vision systems that interpret images and video to automate tasks across industries. From object detection and facial recognition to OCR and surveillance, our solutions enable smarter decision-making with real-time image-based intelligence.",
+    details: [
+      "Detect objects and faces",
+      "Analyze visual scenes",
+      "Use OCR for text extraction",
+      "Enable emotion and activity recognition",
+      "Deploy quality control systems",
+      "Support AR/VR enhancements",
+    ],
+  },
+  {
+    title: "AI-Powered Recommendation Engines",
+    content:
+      "Our recommendation systems personalize user experiences by predicting what your customers want. Using hybrid algorithms, we help businesses increase conversions, boost retention, and improve product discovery with relevant and timely content suggestions across platforms.",
+    details: [
+      "Collaborative/content-based filtering",
+      "Behavioral targeting",
+      "Real-time recommendations",
+      "Customer segmentation",
+      "A/B testing",
+    ],
+  },
+  {
+    title: "Forecasting & Predictive Modeling",
+    content:
+      "We build predictive tools that allow organizations to anticipate future trends and make proactive decisions. Leveraging historical data and statistical models, we help businesses improve forecasting accuracy and minimize operational and financial risks.",
+    details: [
+      "Sales/demand forecasting",
+      "Customer churn prediction",
+      "Risk modeling",
+      "Inventory optimization",
+      "Scenario simulations",
+    ],
+  },
+  {
+    title: "Anomaly & Fraud Detection",
+    content:
+      "Our intelligent detection systems monitor data in real time to spot unusual patterns or behaviors. From financial fraud and cybersecurity breaches to equipment malfunctions, we help prevent costly incidents through early alerts and root cause analysis.",
+    details: [
+      "Detect fraud and intrusions",
+      "Monitor for system anomalies",
+      "Trigger real-time alerts",
+      "Score risk levels",
+      "Identify root causes",
+    ],
+  },
+  {
+    title: "Reinforcement Learning Systems",
+    content:
+      "We develop reinforcement learning (RL) agents capable of learning from trial and error. RL is perfect for solving dynamic problems in robotics, finance, and logistics—where continuous feedback is used to adapt and optimize actions over time.",
+    details: [
+      "Optimize strategy in dynamic systems",
+      "Train autonomous agents",
+      "Simulate environments",
+      "Apply RL in logistics and gaming",
+      "Deploy adaptive policies",
+    ],
+  },
+  {
+    title: "Custom AI Model Development",
+    content:
+      "We specialize in building custom AI models tailored to your business goals. From data preprocessing to training, deployment, and monitoring, we deliver end-to-end solutions designed for performance, reliability, and seamless integration into your operations.",
+    details: [
+      "Collect and clean data",
+      "Train ML/DL models",
+      "Fine-tune performance",
+      "Build APIs and integrations",
+      "Deploy to cloud or edge",
+    ],
+  },
+];
+
+// --------------------------------------------------------------------------------------------------------------------------
+// ---------------------------------------------------------- TOKENIZATION --------------------------------------------------
+
+// ---------------------------------------------------------- ENTERPRISE GRADE TOKENIZATION SECTION
+
+export const gradeTokenizationData = [
+  {
+    id: 1,
+    title: "Launch Tokenized Securities",
+    description:
+      "Easily define asset details, compliance parameters, supply limits, and transfer rules—then deploy tokens using no-code tools or APIs.",
+    imgSrc: "/tokenization/grade-tokenization/issueTokenized.svg",
+  },
+  {
+    id: 2,
+    title: "Streamline Security Lifecycle",
+    description:
+      "Manage tokenized assets and investors, assign operational roles, and automate key corporate actions with full control.",
+    imgSrc: "/tokenization/grade-tokenization/lifecycleOfSeurities.svg",
+  },
+  {
+    id: 3,
+    title: "Distribute Across Networks",
+    description:
+      "Expand access through multiple distribution channels, integrate with DeFi platforms, and maintain compliance in every transaction.",
+    imgSrc: "/tokenization/grade-tokenization/distributeToOpenNetworks.svg",
+  },
+];
+
+// ---------------------------------------------------------- PIONEER SECTION
+
+export const pioneerData = [
+  {
+    id: 1,
+    highlight: "The Pioneer ",
+    title: "in Compliant Tokenization",
+    description:
+      "Without a standard, we will recreate silos in the era of tokenization. In 2018, we created the open-source ERC-3643 standard to address this issue. Recognized as the sole official ERC standard for compliant tokenization and audited by Hacken, it is now acknowledged by industry giants as the market standard.",
+    imgSrc: "/tokenization/Token.svg",
+    details: [
+      "Enforce on-chain compliance",
+      "Identify investors via digital identity",
+      "Open-source suites of smart contracts",
+    ],
+  },
+  {
+    id: 2,
+    highlight: "Gain immediate access",
+    title: "to a fully integrated ecosystem",
+    description:
+      "We navigate you through the complexities of tokenization by partnering with selected industry leaders. With 7 years of experience and over 120 customers, we have integrated with allnecessary tools, ensuring a seamless and efficient process.",
+    imgSrc: "/tokenization/Token.svg",
+    details: [
+      "100+ ecosystem partners",
+      "7-year unmatched expertise",
+      "Bridging banking and tokenization rails",
+    ],
+  },
+];
+
+// ---------------------------------------------------------- DIVERSIFIED AUDIENCE SECTION
+
+export const diversifiedAudiences = [
+  {
+    id: 1,
+    imgSrc: "/tokenization/diversified-audiences/Retail-Investors.svg",
+    title: "Retail Investors",
+    description:
+      "Tokenization removes traditional barriers, allowing retail investors to purchase fractional shares of real estate assets. This opens the door to wealth-building opportunities once limited to high-net-worth individuals.",
+  },
+  {
+    id: 2,
+    imgSrc: "/tokenization/diversified-audiences/Global-Investors.svg",
+    title: "Global Investors",
+    description:
+      "Geography is no longer a constraint. Tokenized real estate enables investors from around the world to seamlessly access and invest in foreign property markets without the usual regulatory friction.",
+  },
+  {
+    id: 3,
+    imgSrc: "/tokenization/diversified-audiences/Asset-Portfolio-Managers.svg",
+    title: "Asset & Portfolio Managers",
+    description:
+      "Tokenization offers portfolio managers a modern tool for asset diversification, enabling broader investment strategies and enhanced liquidity compared to traditional real estate holdings.",
+  },
+  {
+    id: 4,
+    imgSrc: "/tokenization/diversified-audiences/Tech-Savvy.svg",
+    title: "Tech-Savvy Millennials & Gen Z",
+    description:
+      "Digital-native generations are naturally drawn to tokenized real estate. Combining blockchain and property investment appeals to their tech-first mindset and desire for accessible, modern financial tools.",
+  },
+  {
+    id: 5,
+    imgSrc: "/tokenization/diversified-audiences/Institutional-Investors.svg",
+    title: "Institutional Investors",
+    description:
+      "Tokenized assets offer institutional investors a strategic edge—enhancing portfolio diversification, improving liquidity, and streamlining real estate acquisition at scale.",
+  },
+];
+
+// ---------------------------------------------------------- TOKENIZATION SECTION
+
+export const tokenizationData = [
+  {
+    id: 1,
+    imgSrc: "/tokenization/diversified-audiences/Retail-Investors.svg",
+    title: "Project Review & Legal Check",
+    description:
+      "We assess your project, classify tokens, and choose the right legal setup—balancing risks, goals, and STO compliance.",
+  },
+  {
+    id: 2,
+    imgSrc: "/tokenization/diversified-audiences/Global-Investors.svg",
+    title: "Legal Docs & Process Handling",
+    description:
+      "We draft key legal documents and manage procedures to ensure your STO runs smoothly and stays compliant.",
+  },
+  {
+    id: 3,
+    imgSrc: "/tokenization/diversified-audiences/Asset-Portfolio-Managers.svg",
+    title: "Compliance & Reporting",
+    description:
+      "We take care of filings and reporting to keep your project aligned with STO laws—avoiding delays and penalties.",
+  },
+  {
+    id: 4,
+    imgSrc: "/tokenization/diversified-audiences/Tech-Savvy.svg",
+    title: "Entity Structuring Support",
+    description:
+      "We set up legal entities and define relationships to protect investors, reduce taxes, and follow DeFi regulations.",
+  },
+];
+
+// --------------------------------------------------------------------------------------------------------------------------
+// ---------------------------------------------------------- CONTACT --------------------------------------------------
+
+// ---------------------------------------------------------- CONTACT US SECTION
 
 const ContactUs = [
   {
