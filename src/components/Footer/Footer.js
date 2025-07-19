@@ -100,7 +100,7 @@ const Footer = () => {
           <div className="relative h-full w-full flex flex-col md:flex-row flex-wrap justify-between items-start gap-7">
             <div className="w-9/12 md:w-[25%] lg:w-[20%] space-y-3 ">
               <h2 className="text-2xl font-bold">ROBX.AI</h2>
-              <p className="text-lg text-[#716F73]">
+              <p className="text-lg text-white/70">
                 Create high-quality, style-consistent, proprietary assets for
                 your games.
               </p>
@@ -108,7 +108,7 @@ const Footer = () => {
 
             <div className="w-9/12 md:w-[25%] lg:w-[20%] space-y-3">
               <h2 className="text-2xl font-bold">Download</h2>
-              <p className="text-lg text-[#716F73]">
+              <p className="text-lg text-white/70">
                 Create high-quality, style-consistent, proprietary assets for
                 your games.
               </p>
@@ -116,11 +116,22 @@ const Footer = () => {
 
             <div className="w-9/12 md:w-[25%] lg:w-fit space-y-3">
               <h2 className="text-2xl font-bold">Company</h2>
-              <div className="flex flex-col items-start justify-start text-lg space-y-2 text-[#716F73]">
-                <Link>About</Link>
-                <Link>Career</Link>
-                <Link>Contact</Link>
-                <Link>Blog</Link>
+              <div className="flex flex-col items-start justify-start text-lg space-y-2 text-white/70 ">
+                <Link className="hover:text-white/90" to={"/"}>
+                  Home
+                </Link>
+                <Link className="hover:text-white/90" to={"/about"}>
+                  About
+                </Link>
+                <Link className="hover:text-white/90" to={"/services"}>
+                  Services
+                </Link>
+                <Link className="hover:text-white/90" to={"/blog"}>
+                  Blog
+                </Link>
+                <Link className="hover:text-white/90" to={"/contact"}>
+                  Contact
+                </Link>
               </div>
             </div>
 
