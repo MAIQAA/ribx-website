@@ -166,13 +166,13 @@ const Footer = () => {
       </footer>
 
       <div className="w-full bg-black px-4 md:px-8 xl:px-12">
-        <div className="xl:container mx-auto 2xl:max-w-[1280px] w-full flex flex-col md:flex-row justify-center md:justify-between items-center py-6 md:gap-16 text-white">
+        <div className="xl:container mx-auto 2xl:max-w-[1280px] w-full flex flex-col md:flex-row justify-center items-center py-6 md:gap-16 text-white">
           <p>© 2025 design by Robx</p>
 
-          <div className="flex flex-col md:flex-row items-center justify-end gap-7">
+          {/* <div className="flex flex-col md:flex-row items-center justify-end gap-7">
             <p>Privacy Policy</p>
             <p>Terms of Use</p>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
