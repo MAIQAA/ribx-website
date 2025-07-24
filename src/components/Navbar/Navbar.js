@@ -47,7 +47,7 @@ const Navbar = () => {
             </Link>
           </div>
 
-          <div className="hidden lg:flex space-x-10 translate-x-40 items-center">
+          <div className="hidden lg:flex space-x-10 translate-x-20 items-center">
             <ul className="flex space-x-6 items-center font-semibold">
               {navLinks.map((link, index) =>
                 link.dropdown ? (
