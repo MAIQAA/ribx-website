@@ -43,7 +43,7 @@ const Hero = () => {
           </h1>
 
           {/* Text */}
-          <p className="text-base md:text-lg 2xl:text-xl max-w-3xl">
+          <p className="text-base md:text-lg 2xl:text-xl max-w-3xl font-lato">
             At Robx.ai, we help you turn physical properties into secure digital
             tokens. Simplify ownership, enable fractional investments, and bring
             more transparency to real estate through smart tokenization

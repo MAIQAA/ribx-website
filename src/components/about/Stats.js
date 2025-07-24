@@ -31,7 +31,7 @@ const Stats = () => {
                 {stat.title}{" "}
                 <span className="text-base md:text-lg xl:text-xl">+</span>
               </h2>
-              <p className="text-sm md:text-base xl:text-lg text-white/70">
+              <p className="text-sm md:text-base xl:text-lg text-white/70 font-lato">
                 {stat.description}
               </p>
             </div>

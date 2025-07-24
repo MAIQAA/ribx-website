@@ -32,7 +32,7 @@ const Hero = () => {
           </h1>
 
           {/* Text */}
-          <p className="text-base md:text-lg 2xl:text-xl max-w-2xl">
+          <p className="text-base md:text-lg 2xl:text-xl max-w-2xl font-lato">
             At Robx.ai, we build intelligent solutions using machine learning
             and deep learning to help businesses make smarter decisions,
             automate tasks, and gain valuable insights from data. Our team

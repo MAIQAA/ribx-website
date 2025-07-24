@@ -45,7 +45,7 @@ const Hero = () => {
           <h1 className="text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl font-bold leading-snug">
             About <span className="text-[#DC00F9]">Robx.ai</span>
           </h1>
-          <p className="text-base md:text-lg 2xl:text-xl max-w-2xl">
+          <p className="text-base md:text-lg 2xl:text-xl max-w-2xl font-lato">
             At Robx.ai, we help businesses grow with smart AI tools, easy-to-use
             websites, and helpful chatbots. Our team focuses on understanding
             your needs and building solutions that save time, work smoothly, and

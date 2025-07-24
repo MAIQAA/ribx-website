@@ -61,7 +61,7 @@ const ContactForm = () => {
           className="w-full lg:w-[45%] space-y-7"
         >
           <HeadingHighlight highlightText={"Contact Us"} />
-          <p className="text-base md:text-lg 2xl:text-xl text-white">
+          <p className="text-base md:text-lg 2xl:text-xl text-white font-lato">
             We are a team of our dedicated patent, professionals united by our
             commitment to excellence and innovation.
           </p>

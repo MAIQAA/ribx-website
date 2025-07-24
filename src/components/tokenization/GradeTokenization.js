@@ -43,7 +43,7 @@ const GradeTokenization = () => {
             highlightText="Grade Tokenization"
             subText="Made Simple"
           />
-          <p className="text-base md:text-lg xl:px-4">
+          <p className="text-base md:text-lg xl:px-4 font-lato">
             We assess your asset structure, compliance needs, and business goals
             to design a secure, scalable tokenization framework. From real
             estate to fractional ownership models, we simplify the tokenization
@@ -68,7 +68,9 @@ const GradeTokenization = () => {
           ].map((text, index) => (
             <li key={index} className="flex items-center gap-3">
               <FaCheck className="text-[#DC00F9]" size={20} />
-              <p className="text-white 2xl:text-[#8D99A3] text-base md:text-lg">{text}</p>
+              <p className="text-white 2xl:text-[#8D99A3] text-base md:text-lg font-lato">
+                {text}
+              </p>
             </li>
           ))}
         </motion.ul>
@@ -89,7 +91,7 @@ const GradeTokenization = () => {
               <h3 className="text-xl lg:text-2xl font-bold mb-3">
                 {item.title}
               </h3>
-              <p className="text-sm lg:text-[15px] text-center">
+              <p className="text-sm lg:text-[15px] text-center font-lato">
                 {item.description}
               </p>
               <img

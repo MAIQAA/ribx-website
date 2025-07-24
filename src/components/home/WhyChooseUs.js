@@ -52,7 +52,7 @@ const WhyUs = () => {
               variant="subheading"
             />
 
-            <p className="text-base md:text-lg 2xl:text-xl max-w-2xl ">
+            <p className="text-base md:text-lg 2xl:text-xl max-w-2xl font-lato">
               Choose Robx.ai for leading-edge AI solutions and dedicated
               support. We specialize in customized AI development, ensuring
               transformative results tailored to your business needs and
@@ -63,7 +63,7 @@ const WhyUs = () => {
               {WhyChooseUs.map((item, index) => (
                 <li
                   style={{ listStyleType: "square" }}
-                  className={`py-[14px] text-sm xl:text-base 2xl:text-lg  marker:text-[#A234FD] border-[#D5D5D566] ${
+                  className={`py-[14px] text-sm xl:text-base 2xl:text-lg font-lato marker:text-[#A234FD] border-[#D5D5D566] ${
                     index === 4 || index === 5
                       ? " border-t border-b "
                       : " border-t "
@@ -90,7 +90,7 @@ const WhyUs = () => {
               <h3 className="text-2xl md:text-3xl xl:text-4xl font-bold">
                 Get Started!
               </h3>
-              <p className="text-sm md:text-base xl:text-lg text-white/70">
+              <p className="text-sm md:text-base xl:text-lg font-lato text-white/70">
                 Try Robx Services for free today
               </p>
               <Link to="/contact">
@@ -123,7 +123,7 @@ const WhyUs = () => {
                   {stat.title}{" "}
                   <span className="text-base md:text-lg xl:text-xl">+</span>{" "}
                 </h2>
-                <p className="text-sm md:text-base xl:text-lg text-white/70">
+                <p className="text-sm md:text-base xl:text-lg text-white/70 font-lato">
                   {stat.description}
                 </p>
               </div>

@@ -40,7 +40,7 @@ const DiversifiedAudiences = () => {
             subText={"for tokenized real estate"}
           />
 
-          <p className="text-base md:text-lg xl:px-4">
+          <p className="text-base md:text-lg xl:px-4 font-lato">
             Tokenization makes real estate accessible to a wide range of
             investors—retail, global, institutional, and digital natives—by
             enabling fractional ownership, lower entry costs, and borderless
@@ -64,7 +64,7 @@ const DiversifiedAudiences = () => {
                 <h3 className="text-xl xl:text-2xl font-bold text-white ">
                   {item.title}
                 </h3>
-                <p className="text-white/70 text-sm md:text-base">
+                <p className="text-white/70 text-sm md:text-base font-lato">
                   {item.description}
                 </p>
               </div>

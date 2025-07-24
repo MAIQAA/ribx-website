@@ -29,7 +29,7 @@ const Footer = () => {
               <HeadingHighlight text="Let's start project together!" />
 
               {/* Description */}
-              <p className="text-base md:text-lg 2xl:text-xl max-w-2xl">
+              <p className="text-base md:text-lg 2xl:text-xl max-w-2xl font-lato">
                 To lead the eCommerce market, you need ambition and
                 possibilities to grow. We assist our clients in achieving real
                 business results.
@@ -45,7 +45,7 @@ const Footer = () => {
 
             {/* Right Blogs Section */}
             <div className=" w-full h-full lg:w-[47%] flex flex-col items-center justify-start gap-7 ">
-              <form className="w-full space-y-7 md:grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-2">
+              <form className="w-full space-y-7 md:grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-2 font-lato">
                 <div className="space-y-3">
                   <label>What is your Name? *</label>
                   <input
@@ -100,7 +100,7 @@ const Footer = () => {
           <div className="relative h-full w-full flex flex-col md:flex-row flex-wrap justify-between items-start gap-7">
             <div className="w-9/12 md:w-[25%] lg:w-[20%] space-y-3 ">
               <h2 className="text-2xl font-bold">ROBX.AI</h2>
-              <p className="text-lg text-white/70">
+              <p className="text-lg text-white/70 font-lato">
                 Create high-quality, style-consistent, proprietary assets for
                 your games.
               </p>
@@ -108,7 +108,7 @@ const Footer = () => {
 
             <div className="w-9/12 md:w-[25%] lg:w-[20%] space-y-3">
               <h2 className="text-2xl font-bold">Download</h2>
-              <p className="text-lg text-white/70">
+              <p className="text-lg text-white/70 font-lato">
                 Create high-quality, style-consistent, proprietary assets for
                 your games.
               </p>
@@ -116,7 +116,7 @@ const Footer = () => {
 
             <div className="w-9/12 md:w-[25%] lg:w-fit space-y-3">
               <h2 className="text-2xl font-bold">Company</h2>
-              <div className="flex flex-col items-start justify-start text-lg space-y-2 text-white/70 ">
+              <div className="flex flex-col items-start justify-start text-lg space-y-2 text-white/70 font-lato ">
                 <Link className="hover:text-white/90" to={"/"}>
                   Home
                 </Link>
@@ -137,7 +137,7 @@ const Footer = () => {
 
             <div className="w-full md:w-2/3 lg:w-[35%] space-y-3 ">
               <h2 className="text-2xl font-bold">Sign Up for Our Newsletter</h2>
-              <div className="relative w-full py-[14px] px-6 bg-transparent border-1 border-[#FFFFFF33] text-white rounded">
+              <div className="relative w-full py-[14px] px-6 bg-transparent border-1 border-[#FFFFFF33] text-white rounded font-lato">
                 <input
                   type="text"
                   placeholder="Please Enter your email"

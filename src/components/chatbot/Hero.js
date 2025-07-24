@@ -30,7 +30,7 @@ const Hero = () => {
           </h1>
 
           {/* Text */}
-          <p className="text-base md:text-lg 2xl:text-xl max-w-2xl">
+          <p className="text-base md:text-lg 2xl:text-xl max-w-2xl font-lato">
             At Robx.ai, we build smart AI-powered chatbots that help businesses
             connect with their customers 24/7. Whether it&apos;s answering
             questions, guiding users, or automating support, our chatbots are

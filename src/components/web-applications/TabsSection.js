@@ -75,7 +75,7 @@ const TabSection = () => {
             highlightText="Web Application Development"
             subText="Services We Offer"
           />
-          <p className="text-base md:text-lg xl:px-4">
+          <p className="text-base md:text-lg xl:px-4 font-lato">
             At Robx.ai, we design and build high-performing web applications
             that solve real business problems. Whether you need a custom
             dashboard, an internal tool, or a customer-facing platform, our team
@@ -101,7 +101,7 @@ const TabSection = () => {
             <h2 className="text-2xl font-bold mb-4">
               {tabData[activeTab].title}
             </h2>
-            <p className="text-sm md:text-base lg:text-lg whitespace-pre-line text-white/90">
+            <p className="text-sm md:text-base lg:text-lg whitespace-pre-line text-white/90 font-lato">
               {tabData[activeTab].description}
             </p>
 

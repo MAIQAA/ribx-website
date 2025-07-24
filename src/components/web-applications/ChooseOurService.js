@@ -54,7 +54,7 @@ const ChooseServices = () => {
             highlightText="Web Application Development"
             subText="Services"
           />
-          <p className="text-base md:text-lg xl:px-4">
+          <p className="text-base md:text-lg xl:px-4 font-lato">
             At Robx.ai, we build fast, secure, and scalable web applications
             tailored to your business goals. Our expert team focuses on
             performance and user experience, helping you improve operations,
@@ -95,7 +95,7 @@ const ChooseServices = () => {
               <h3 className="text-xl xl:text-2xl font-bold text-white">
                 {service.title}
               </h3>
-              <p className="text-white/60 text-sm lg:text-base">
+              <p className="text-white/60 text-sm lg:text-base font-lato">
                 {service.description}
               </p>
 

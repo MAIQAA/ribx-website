@@ -2,11 +2,7 @@ import { useLocation } from "react-router-dom";
 import HeadingHighlight from "../reusable/HeadingHighlight";
 import { useRef } from "react";
 import { useInView, motion } from "framer-motion";
-import {
-  fadeSlideLeft,
-  fadeSlideRight,
-  titleVariants,
-} from "../animations";
+import { fadeSlideLeft, fadeSlideRight, titleVariants } from "../animations";
 
 const AboutUs = () => {
   const location = useLocation();
@@ -59,7 +55,7 @@ const AboutUs = () => {
             />
 
             {/* Description */}
-            <p className="text-base md:text-lg 2xl:text-xl max-w-2xl">
+            <p className="text-base md:text-lg 2xl:text-xl max-w-2xl font-lato">
               At Robx.ai, we are committed to delivering reliable, transparent,
               and efficient software development services. Our client-centric
               approach ensures we understand your business challenges, crafting
@@ -74,7 +70,7 @@ const AboutUs = () => {
                 { label: "Customer Satisfaction", value: "99%" },
                 { label: "Quality", value: "76%" },
               ].map(({ label, value }, idx) => (
-                <div className="text-base mb-7" key={idx}>
+                <div className="text-base mb-7 font-lato" key={idx}>
                   <p className="mb-1">{label}</p>
                   <div className="bg-[#131b26] h-2 rounded-full relative">
                     <div

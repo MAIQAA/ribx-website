@@ -52,7 +52,7 @@ const Services = () => {
 
           <div
             ref={ref}
-            className={`w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  items-center justify-start gap-7 ${
+            className={`w-full flex flex-wrap items-center justify-center gap-7 ${
               isInView ? "fade-slide-in-right" : "opacity-0"
             } `}
           >
@@ -60,7 +60,7 @@ const Services = () => {
               <Link
                 key={index}
                 to={service.url}
-                className="relative rounded-xl border-2 border-white/40 p-4 lg:p-6 xl:!p-7 2xl:!p-8 space-y-3 overflow-hidden z-10 flex flex-col items-start justify-start h-64 md:h-56 lg:h-72 xl:h-64"
+                className="w-[31%] relative rounded-xl border-2 border-white/40 p-4 lg:p-6 xl:!p-7 2xl:!p-8 space-y-3 overflow-hidden z-10 flex flex-col items-start justify-start h-64 md:h-56 lg:h-72 xl:h-64"
               >
                 <img
                   src={service.bgSrc}
@@ -70,7 +70,7 @@ const Services = () => {
                 <h3 className="text-xl xl:text-2xl font-bold text-white ">
                   {service.title}
                 </h3>
-                <p className="text-white/60 text-sm md:text-base">
+                <p className="text-white/60 text-sm md:text-base font-lato">
                   {service.description}
                 </p>
               </Link>

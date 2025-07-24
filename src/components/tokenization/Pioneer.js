@@ -44,7 +44,7 @@ const PioneerSection = () => {
                 <span className="text-[#DC00F9]">{item.highlight}</span>{" "}
                 {item.title}
               </h3>
-              <p className="text-base md:text-lg font-light text-justify">
+              <p className="text-base md:text-lg font-light text-justify font-lato">
                 {item.description}
               </p>
               <div className="space-y-3">

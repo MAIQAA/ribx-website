@@ -30,7 +30,7 @@ const Hero = () => {
           </h1>
 
           {/* Text */}
-          <p className="text-base md:text-lg 2xl:text-xl max-w-2xl">
+          <p className="text-base md:text-lg 2xl:text-xl max-w-2xl font-lato">
             At Robx.ai, we build powerful, user-friendly web applications
             tailored to your business goals. From streamlining internal
             operations to enhancing customer experiences, our custom solutions
@@ -64,9 +64,9 @@ const Hero = () => {
           />
         </div>
       </section>
-        {/* Shapes After Hero */}
-        <div className="w-[90%] self-center bg-[#A234FD] rounded-t-full h-10 absolute -bottom-10 !rotate-180 opacity-25 z-10" />
-        <div className="w-[80%] self-center bg-[#5D00F7] rounded-t-full h-14 absolute -bottom-14 !rotate-180 opacity-25 z-10" />
+      {/* Shapes After Hero */}
+      <div className="w-[90%] self-center bg-[#A234FD] rounded-t-full h-10 absolute -bottom-10 !rotate-180 opacity-25 z-10" />
+      <div className="w-[80%] self-center bg-[#5D00F7] rounded-t-full h-14 absolute -bottom-14 !rotate-180 opacity-25 z-10" />
     </main>
   );
 };

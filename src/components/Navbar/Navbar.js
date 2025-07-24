@@ -36,18 +36,18 @@ const Navbar = () => {
     <div className="w-full">
       {/* NAVBAR FOR LG & XL DEVICES */}
       <nav
-        className="fixed top-0 left-0 w-full z-40 h-18 bg-[#0E0613] bg-opacity-40 text-white font-normal border-b-2 border-gray-600 uppercase backdrop-blur-sm"
+        className="fixed top-0 left-0 w-full z-40 h-18 bg-[#0E0613] bg-opacity-80 text-white font-normal border-b-2 border-gray-600 uppercase backdrop-blur-sm"
         role="navigation"
         aria-label="Main navigation"
       >
         <div className="container mx-auto py-[1%] flex justify-between items-center">
           <div className="flex items-center">
             <Link to="/" aria-label="Home page">
-              <img src="/logo.png" alt="Logo" className="h-10" />
+              <img src="/robx-logo.png" alt="Logo" className="h-10" />
             </Link>
           </div>
 
-          <div className="hidden lg:flex space-x-10 items-center">
+          <div className="hidden lg:flex space-x-10 translate-x-40 items-center">
             <ul className="flex space-x-6 items-center font-semibold">
               {navLinks.map((link, index) =>
                 link.dropdown ? (

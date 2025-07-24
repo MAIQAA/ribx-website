@@ -63,14 +63,14 @@ function ServiceSection({ current, index }) {
         // key={`text-${index}-${isSectionInView}`}
       >
         <HeadingHighlight text={current.title} variant="subHeading" />
-        <p className="text-base md:text-lg !font-light text-justify">
+        <p className="text-base md:text-lg text-justify font-lato">
           {current.description}
         </p>
         <div className="space-y-3">
           {current.details.map((point, i) => (
             <span
               key={i}
-              className="flex items-center justify-start text-base md:text-lg gap-3"
+              className="flex items-center justify-start text-base md:text-lg gap-3 font-lato"
             >
               <img
                 src="/generative/list-icon.svg"
@@ -78,7 +78,7 @@ function ServiceSection({ current, index }) {
                 width={24}
                 height={20}
               />
-              <p className="!font-light">{point}</p>
+              <p className="">{point}</p>
             </span>
           ))}
         </div>
@@ -150,7 +150,7 @@ export function Services() {
           highlightText="Generative AI Solutions"
           subText="for your Business"
         />
-        <p className="text-base md:text-lg 2xl:text-xl xl:px-4">
+        <p className="text-base md:text-lg 2xl:text-xl xl:px-4 font-lato">
           At Robx.ai, we start by understanding how your team works, what data
           you use, and what your platform needs. Then we build smart AI
           tools—like chatbots and content generators—that give accurate results

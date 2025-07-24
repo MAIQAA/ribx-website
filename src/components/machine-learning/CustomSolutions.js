@@ -47,7 +47,7 @@ const CustomSolutions = () => {
             highlightText="Deep Learning / Machine Learning"
             subText="Solutions"
           />
-          <p className="text-base md:text-lg xl:px-4">
+          <p className="text-base md:text-lg xl:px-4 font-lato">
             We analyze your workflows, data structures, and business goals to
             choose the right machine learning or deep learning approach. Then,
             we design and develop intelligent models that deliver accurate

@@ -45,7 +45,7 @@ const Hero = () => {
           <h1 className="text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl font-bold leading-snug">
             Stay <span className="text-[#DC00F9]">Connected</span> With Us
           </h1>
-          <p className="text-base md:text-lg 2xl:text-xl max-w-2xl">
+          <p className="text-base md:text-lg 2xl:text-xl max-w-2xl font-lato">
             We &apos;re here to help you build smarter solutions. Whether you
             have a question, project idea, or just want to say hello — our team
             is just a message away.

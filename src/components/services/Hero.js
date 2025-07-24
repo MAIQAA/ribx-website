@@ -45,7 +45,7 @@ const Hero = () => {
           <h1 className="text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl font-bold leading-snug">
             Explore Our <span className="text-[#DC00F9]">Services</span>
           </h1>
-          <p className="text-base md:text-lg 2xl:text-xl max-w-2xl">
+          <p className="text-base md:text-lg 2xl:text-xl max-w-2xl font-lato">
             Make property investment more accessible and efficient with
             tokenization—offering fractional ownership, faster liquidity, and
             global reach through blockchain technology.

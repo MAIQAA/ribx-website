@@ -35,7 +35,7 @@ const Tokenization = () => {
             subText={"a simpler way to realize real estate opportunities"}
           />
 
-          <p className="text-base md:text-lg xl:px-4">
+          <p className="text-base md:text-lg xl:px-4 font-lato">
             Transform how real estate is accessed and traded. Tokenization
             enables fractional ownership, faster transactions, and broader
             investor reach—all through secure, blockchain-based assets.
@@ -58,7 +58,9 @@ const Tokenization = () => {
                 <h3 className="text-xl xl:text-2xl font-bold  ">
                   {item.title}
                 </h3>
-                <p className=" text-sm md:text-base">{item.description}</p>
+                <p className=" text-sm md:text-base font-lato">
+                  {item.description}
+                </p>
               </div>
             ))}
           </div>

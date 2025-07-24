@@ -50,7 +50,7 @@ const TechStack = () => {
             highlightText="Machine Learning / Deep Learning"
             subText="Tech Stacks"
           />
-          <p className="text-base md:text-lg xl:px-4">
+          <p className="text-base md:text-lg xl:px-4 font-lato">
             At Robx.ai, we use trusted tools and technologies to build powerful
             machine learning and deep learning solutions. From creating and
             training models to launching them live, our tech stack helps us work
@@ -76,7 +76,7 @@ const TechStack = () => {
                 <FiCheckCircle className="text-[#DC00F9]" size={24} />
               </div>
 
-              <ul className="space-y-1 list-disc pl-4">
+              <ul className="space-y-1 list-disc pl-4 font-lato">
                 <li>Natural Language Processing / Understanding (NLP / NLU)</li>
                 <li>Computer Vision (CV)</li>
                 <li>Audio</li>
@@ -92,7 +92,7 @@ const TechStack = () => {
                 <FiCheckCircle className="text-[#DC00F9]" size={24} />
               </div>
 
-              <ul className="space-y-1 list-disc pl-4">
+              <ul className="space-y-1 list-disc pl-4 font-lato">
                 <li>Amazon Web Services</li>
                 <li>Google Cloud Platform</li>
                 <li>Microsoft Azure</li>
@@ -108,7 +108,7 @@ const TechStack = () => {
                 <FiCheckCircle className="text-[#DC00F9]" size={24} />
               </div>
 
-              <ul className="space-y-1 list-disc pl-4">
+              <ul className="space-y-1 list-disc pl-4 font-lato">
                 <li>Tensorflow/Jax/Keras</li>
                 <li>CoreML, Microsoft Cognitive toolkit</li>
                 <li>ONNX</li>
@@ -122,7 +122,7 @@ const TechStack = () => {
                 <FiCheckCircle className="text-[#DC00F9]" size={24} />
               </div>
 
-              <ul className="space-y-1 list-disc pl-4">
+              <ul className="space-y-1 list-disc pl-4 font-lato">
                 <li>Supervised / Unsupervised / Semi-supervised Learning</li>
                 <li>Reinforcement Learning</li>
                 <li>Few-Shot Learning</li>

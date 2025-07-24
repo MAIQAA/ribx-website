@@ -37,14 +37,14 @@ const ContacDetails = () => {
               {contact.link ? (
                 <a
                   href={contact.link}
-                  className="text-sm md:text-base hover:underline"
+                  className="text-sm md:text-base hover:underline font-lato"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   {contact.details}
                 </a>
               ) : Array.isArray(contact.details) ? (
-                <ul className="text-sm md:text-base space-y-1 text-left">
+                <ul className="text-sm md:text-base space-y-1 text-left font-lato">
                   {contact.details.map((item, itemIndex) => (
                     <li key={itemIndex}>
                       <a
@@ -59,7 +59,9 @@ const ContacDetails = () => {
                   ))}
                 </ul>
               ) : (
-                <p className="text-sm md:text-base">{contact.details}</p>
+                <p className="text-sm md:text-base font-lato">
+                  {contact.details}
+                </p>
               )}
             </div>
           </div>

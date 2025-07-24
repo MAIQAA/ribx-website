@@ -48,7 +48,7 @@ const BenefitsOfServices = () => {
             highlightText="Web Application Development"
             subText="Services"
           />
-          <p className="text-base md:text-lg xl:px-4">
+          <p className="text-base md:text-lg xl:px-4 font-lato">
             At Robx.ai, we create custom web applications that are fast,
             reliable, and built to grow with your business. With years of
             experience and successful projects delivered, our team focuses on
@@ -85,7 +85,7 @@ const BenefitsOfServices = () => {
               <h3 className="text-xl xl:text-2xl font-bold text-white">
                 {service.title}
               </h3>
-              <p className="text-white/60 text-sm lg:text-base">
+              <p className="text-white/60 text-sm lg:text-base font-lato">
                 {service.description}
               </p>
             </div>

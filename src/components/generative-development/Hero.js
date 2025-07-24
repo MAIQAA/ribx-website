@@ -44,7 +44,7 @@ const Hero = () => {
           </h1>
 
           {/* Text */}
-          <p className="text-base md:text-lg 2xl:text-xl max-w-3xl">
+          <p className="text-base md:text-lg 2xl:text-xl max-w-3xl font-lato">
             At Robx.ai, we build Generative AI tools that help your business
             work faster and smarter. From writing content to answering
             questions, our AI solutions can automate tasks and improve the way

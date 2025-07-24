@@ -9,7 +9,7 @@ const HeadingHighlight = ({
   const baseStyle =
     variant === "title"
       ? "text-3xl md:text-4xl lg:text-5xl 2xl:text-[55px]"
-      : "text-xl md:text-2xl lg:text-3xl";
+      : "text-2xl md:text-3xl lg:text-4xl";
 
   return (
     <h2 className={`${baseStyle} font-bold  leading-snug`}>

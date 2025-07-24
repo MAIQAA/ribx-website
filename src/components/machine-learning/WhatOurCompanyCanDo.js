@@ -50,7 +50,7 @@ const WhatOurCompanyCanDo = () => {
             highlightText="Machine Learning / Deep Learning"
             subText="Company Can Do"
           />
-          <p className="text-base md:text-lg xl:px-4">
+          <p className="text-base md:text-lg xl:px-4 font-lato">
             At Robx.ai, we design intelligent ML and Deep Learning systems that
             automate processes, predict outcomes, and drive smarter decisions.
             Whether it&apos;s optimizing workflows or uncovering hidden
@@ -99,9 +99,9 @@ const WhatOurCompanyCanDo = () => {
             <hr className="w-full h-[2px] lg:h-64 lg:w-[2px] bg-white" />
 
             {/* RIGHT SECTION : CONTENT */}
-            <div className="text-base xl:text-lg w-full lg:w-[68%] space-y-3">
+            <div className="text-base xl:text-lg w-full lg:w-[68%] space-y-3 font-lato">
               <p>{tabs[activeIndex]?.content}</p>
-              <ul className="list-disc pl-3 grid grid-cols-1 lg:grid-cols-2 gap-x-3 gap-y-2">
+              <ul className="list-disc pl-3 grid grid-cols-1 lg:grid-cols-2 gap-x-3 gap-y-2 font-lato">
                 {tabs[activeIndex]?.details.map((item, index) => (
                   <li key={index}>{item}</li>
                 ))}

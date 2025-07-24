@@ -71,7 +71,7 @@ const Integrate = () => {
                 <h3 className="text-xl xl:text-2xl font-bold text-white">
                   {service.title}
                 </h3>
-                <p className="text-white/60 text-sm lg:text-base">
+                <p className="text-white/60 text-sm lg:text-base font-lato">
                   {service.description}
                 </p>
               </div>

@@ -61,7 +61,7 @@ export function Benefits() {
             highlightText="Generative AI"
             subText="Development"
           />
-          <p className="text-base md:text-lg 2xl:text-xl xl:px-4">
+          <p className="text-base md:text-lg 2xl:text-xl xl:px-4 font-lato">
             At Robx.ai, we analyze your workflows and data needs to choose the
             right AI tools. Then, we build tailored solutions like smart
             chatbots that deliver fast, accurate responses and help your
@@ -83,14 +83,14 @@ export function Benefits() {
                 key={benefit.id}
                 className="flex items-start justify-between gap-3 pt-10 border-t-2 border-white/50"
               >
-                <div className="text-white text-sm lg:text-base">
+                <div className="text-white text-sm lg:text-base font-lato">
                   {benefit.id}
                 </div>
                 <div className="space-y-3">
                   <h3 className="text-xl xl:text-2xl font-bold text-white">
                     {benefit.title}
                   </h3>
-                  <p className="text-white text-sm lg:text-base">
+                  <p className="text-white text-sm lg:text-base font-lato">
                     {benefit.description}
                   </p>
                 </div>
@@ -111,14 +111,14 @@ export function Benefits() {
                 key={benefit.id}
                 className="flex items-start justify-start gap-3 pt-10 border-t-2 border-white/50"
               >
-                <div className="text-white text-sm lg:text-base">
+                <div className="text-white text-sm lg:text-base font-lato">
                   {benefit.id}
                 </div>
                 <div className="space-y-3">
                   <h3 className="text-xl xl:text-2xl font-bold text-white">
                     {benefit.title}
                   </h3>
-                  <p className="text-white text-sm lg:text-base">
+                  <p className="text-white text-sm lg:text-base font-lato">
                     {benefit.description}
                   </p>
                 </div>

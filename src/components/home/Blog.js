@@ -45,7 +45,7 @@ const Blog = () => {
             </div>
 
             {/* Description */}
-            <p className="text-base md:text-lg 2xl:text-xl max-w-2xl">
+            <p className="text-base md:text-lg 2xl:text-xl max-w-2xl font-lato">
               Each blog highlights our expertise and the transformative impact
               of our services
             </p>
@@ -82,7 +82,9 @@ const Blog = () => {
                   <FaStar size={18} />
                 </div>
 
-                <p className="text-[#DC00F9]">Trusted by 20k+ clients</p>
+                <p className="text-[#DC00F9] font-lato">
+                  Trusted by 20k+ clients
+                </p>
                 {/* Avatars */}
               </div>
             </div>
@@ -111,7 +113,7 @@ const Blog = () => {
                     <h3 className="text-lg md:text-xl lg:text-2xl  font-bold line-clamp-2">
                       {item.title}
                     </h3>
-                    <p className="text-base lg:text-lg text-[#716F73] line-clamp-3">
+                    <p className="text-base lg:text-lg text-[#716F73] line-clamp-3 font-lato">
                       {item.description}
                     </p>
 
@@ -123,11 +125,11 @@ const Blog = () => {
                           alt="Avatar"
                           className="rounded-full border-2 border-[#28093B]"
                         /> */}
-                        <span className="text-base font-semibold italic">
+                        <span className="text-base font-semibold italic font-lato">
                           by {item.author}
                         </span>
                       </div>
-                      <div className="w-full xl:w-fit flex items-center justify-between gap-3 xl:gap-5">
+                      <div className="w-full xl:w-fit flex items-center justify-between gap-3 xl:gap-5 font-lato">
                         {/* Date */}
                         <b>{item.date}</b>
 

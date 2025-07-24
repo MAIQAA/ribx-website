@@ -19,9 +19,9 @@ const FAQItem = ({ faq }) => {
 
   return (
     <div
-      className={`rounded-lg p-4 transition-all duration-500 ease-in-out ${
+      className={`rounded-lg p-4 transition-colors duration-300 ease-in-out ${
         isOpen
-          ? "bg-gradient-to-r from-[#F9B7BC] via-[#771A8B] to-[#A234FD] text-white"
+          ? "bg-gradient-to-r to-[#F9B7BC] from-[#771A8B] via-[#A234FD] text-white"
           : "bg-white text-black"
       }`}
     >
@@ -32,7 +32,7 @@ const FAQItem = ({ faq }) => {
         <span>{faq.question}</span>
         <IoIosArrowDropdownCircle
           size={28}
-          className={`absolute top-0 -right-3 h-5 w-5 md:w-7 md:h-7 md:static transform transition-transform duration-500 ${
+          className={`absolute top-0 -right-3 h-5 w-5 md:w-7 md:h-7 md:static transform transition-transform duration-300 ${
             isOpen ? "rotate-180" : "rotate-0"
           }`}
         />
@@ -44,7 +44,7 @@ const FAQItem = ({ faq }) => {
         className="overflow-hidden transition-all duration-500 ease-in-out"
       >
         <p
-          className={`mt-3 text-lg font-normal transition-all duration-500 ease-in-out ${
+          className={`mt-3 text-lg font-normal transition-all duration-500 ease-in-out font-lato ${
             isOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-2"
           }`}
         >
