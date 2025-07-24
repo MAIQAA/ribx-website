@@ -39,7 +39,7 @@ const Hero = () => {
           </h1>
 
           {/* Text */}
-          <p className="text-base md:text-lg 2xl:text-xl max-w-2xl font-inter">
+          <p className="text-base md:text-lg 2xl:text-xl max-w-2xl font-lato">
             ROBX.AI revolutionizes businesses with cutting-edge AI solutions. We
             streamline operations, enhance decision-making, and improve customer
             experiences. Partner with us to unlock the full potential of AI and
